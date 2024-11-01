@@ -25,7 +25,7 @@ Reading the count file for microarray data from [This paper](https://genomebiolo
 
 
 ```R
-cnt <- fread("./Alldatanomef.txt")
+cnt <- fread("../data/Alldatanomef.txt")
 
 gene_ids <- cnt$clone
 
