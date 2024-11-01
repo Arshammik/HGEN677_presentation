@@ -7,7 +7,7 @@
 - **Instructor**: Celia M Greenwood  
 - **Author**: Arsham Mikaeili Namini  
 - **Date**: October 29, 2024  
-- **Department**: Human Genetics, Faculty of Medicine and Health Sciences, McGill University  
+Department of Human Genetics, Faculty of Medicine and Health Sciences, McGill University  
 
 ---
 
