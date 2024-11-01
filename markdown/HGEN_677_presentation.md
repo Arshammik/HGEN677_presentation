@@ -25,7 +25,7 @@ Reading the count file for microarray data from [This paper](https://genomebiolo
 
 
 ```R
-cnt <- fread("../data/Alldatanomef.txt")
+cnt <- fread("./Alldatanomef.txt")
 
 gene_ids <- cnt$clone
 
@@ -253,7 +253,7 @@ grid.arrange(p2, p1, ncol = 2)
 
 ```R
 mixed_effect_model <- lmerTest::lmer(cnt[2,] ~ meta$starin_temp + (meta$starin_temp | meta$mouse))
-# summary(mixed_effect_model)
+#summary(mixed_effect_model)
 ranef(mixed_effect_model)
 ```
 
